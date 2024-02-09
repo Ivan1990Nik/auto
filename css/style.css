@@ -45,15 +45,16 @@ html, body {
 
 .header__nav-item {
     margin-right: 40px;
-opacity: 0.70;
+    opacity: 0.70;
+    transition: all 0.3s;
 }
 
 .header__nav-item:hover {
     color: rgb(5, 236, 156);
-    background-color: rgb(43, 58, 34);
     border-radius: 100%;
     opacity: 1;
-
+    transition: all 0.3s;
+    scale: 1.2;
 }
 
 .header__nav-item:last-child {
@@ -107,3 +108,80 @@ opacity: 0.70;
     text-align: left;
     opacity: 0.7;
 }
+
+
+/* ============================== HEADER BODY ============================== */
+/* ============================== HEADER BODY ============================== */
+
+
+.header__body {
+    padding: 80px 0 135px;
+}
+
+.header__body-inner {}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {}
+
+.header__title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 84px;
+    letter-spacing: -3%;
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+
+.header__content-buttons {
+    margin-bottom: 48px;
+}
+
+.header__content-btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 50px;
+
+
+}
+
+.button {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 52px;
+    padding: 0 40px;
+    border-radius: 12px;
+    background: linear-gradient(10.95deg, rgb(5, 236, 156) 0%, rgb(138, 255, 5) 100%);
+    white-space: nowrap;
+    transition: .3s;
+    color: rgb(0, 5, 5);
+}
+
+.button:hover {
+    scale: 1.1;
+}
+.button--empty {
+}
+
+.header__play {}
+
+.header__days {
+    margin-top: 48px;
+}
+
+.header__days__text {}
+
+.header__days__clok {}
+
+.header__amg {}
+
+.header__play-service {}
