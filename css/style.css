@@ -182,6 +182,11 @@ html, body {
 
 .header__days__clok {}
 
-.header__amg {}
+.header__service {
+    background: url(../images/Home-Image.jpeg);
+    width: 900px;
+    height: 605px;
+
+}
 
 .header__play-service {}
