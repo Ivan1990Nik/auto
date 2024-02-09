@@ -170,26 +170,35 @@ html, body {
 .button:hover {
     scale: 1.1;
 }
-.button--empty {
-}
 
 .header__play {
-    align-items: center;
     display: inline-flex;
-}
-.header__play span{
-margin-left: 8px;
-}
-.header__days {
-    margin-top: 48px;
+    align-items: center;
 }
 
-.header__days__text {}
+.header__play span {
+    margin-left: 8px;
+}
+
+.header__days::before {
+}
+
+.header__days-clok .header__days-text::before {
+    background: url(../images/icons/Icon.svg) 0 0 / 100% no-repeat;
+    
+}
+
+
+.header__days__text {
+    color: rgb(147, 145, 145);
+    font-family: Manrope;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
 
 .header__days__clok {}
 
-.header__service {
-
-}
+.header__service {}
 
 .header__play-service {}
