@@ -140,7 +140,8 @@ html, body {
 }
 
 .header__content-buttons {
-    margin-bottom: 48px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .header__content-btn {
@@ -152,6 +153,7 @@ html, body {
     margin-right: 50px;
 
 
+
 }
 
 .button {
@@ -161,7 +163,7 @@ html, body {
     line-height: 52px;
     padding: 0 40px;
     border-radius: 12px;
-    background: linear-gradient(10.95deg, rgb(5, 236, 156) 0%, rgb(43, 58, 34) 100%);
+    background: linear-gradient(10.9deg, rgb(5, 236, 156) 0%, rgb(43, 58, 34) 100%);
     white-space: nowrap;
     transition: .3s;
     color: rgb(181, 236, 236);
@@ -180,14 +182,14 @@ html, body {
     margin-left: 8px;
 }
 
-.header__days::before {
-}
-
 .header__days-clok .header__days-text::before {
     background: url(../images/icons/Icon.svg) 0 0 / 100% no-repeat;
     
-}
+} 
 
+.header__days {
+    margin-top: 48px;
+}
 
 .header__days__text {
     color: rgb(147, 145, 145);
