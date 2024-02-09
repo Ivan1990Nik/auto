@@ -76,6 +76,7 @@ html, body {
     box-shadow: 0px 0px 10px 5px rgb(43, 58, 34);
     opacity: 1;
 
+
 }
 
 .header__user-bg {
@@ -160,10 +161,10 @@ html, body {
     line-height: 52px;
     padding: 0 40px;
     border-radius: 12px;
-    background: linear-gradient(10.95deg, rgb(5, 236, 156) 0%, rgb(138, 255, 5) 100%);
+    background: linear-gradient(10.95deg, rgb(5, 236, 156) 0%, rgb(43, 58, 34) 100%);
     white-space: nowrap;
     transition: .3s;
-    color: rgb(0, 5, 5);
+    color: rgb(181, 236, 236);
 }
 
 .button:hover {
@@ -172,8 +173,13 @@ html, body {
 .button--empty {
 }
 
-.header__play {}
-
+.header__play {
+    align-items: center;
+    display: inline-flex;
+}
+.header__play span{
+margin-left: 8px;
+}
 .header__days {
     margin-top: 48px;
 }
@@ -183,9 +189,6 @@ html, body {
 .header__days__clok {}
 
 .header__service {
-    background: url(../images/Home-Image.jpeg);
-    width: 900px;
-    height: 605px;
 
 }
 
