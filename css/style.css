@@ -4,6 +4,7 @@
 
 html, body {
     font-family: Manrope, sans-serif;
+    background: rgb(248, 250, 250);
 }
 
 .wrapper {
@@ -50,7 +51,7 @@ html, body {
 }
 
 .header__nav-item:hover {
-    color: rgb(5, 236, 156);
+    color: #05ec9c;
     border-radius: 100%;
     opacity: 1;
     transition: all 0.3s;
@@ -104,10 +105,13 @@ html, body {
     font-family: Manrope;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
     opacity: 0.7;
+}
+
+.header__user-btn {
+    line-height: 35px;
 }
 
 
@@ -119,13 +123,13 @@ html, body {
     padding: 80px 0 135px;
 }
 
-.header__body-inner {}
+.header__body-inner {
 
-.header__main {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .header__content {}
 
@@ -150,7 +154,7 @@ html, body {
     line-height: 175%;
     letter-spacing: 0%;
     text-align: left;
-    margin-right: 50px;
+    margin-right: 40px;
 
 
 
@@ -161,9 +165,9 @@ html, body {
     font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 52px;
-    padding: 0 40px;
+    padding: 0 35px;
     border-radius: 12px;
-    background: linear-gradient(10.9deg, rgb(5, 236, 156) 0%, rgb(43, 58, 34) 100%);
+    background: linear-gradient(10.9deg, #05ec9c 0%, #2b3a22 100%);
     white-space: nowrap;
     transition: .3s;
     color: rgb(181, 236, 236);
@@ -173,34 +177,139 @@ html, body {
     scale: 1.1;
 }
 
-.header__play {
+.header__play-video {
     display: inline-flex;
     align-items: center;
 }
 
-.header__play span {
+.header__play-video span {
     margin-left: 8px;
 }
 
-.header__days-clok .header__days-text::before {
-    background: url(../images/icons/Icon.svg) 0 0 / 100% no-repeat;
-    
-} 
-
 .header__days {
     margin-top: 48px;
+    position: relative;
+    margin-left: 40px;
 }
 
-.header__days__text {
+.header__days::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    display: block;
+    background: url("../images/icons/Icon.svg") no-repeat;
+    width: 31px;
+    height: 31px;
+    opacity: 0.3;
+}
+
+.header__days-text {
+
     color: rgb(147, 145, 145);
     font-family: Manrope;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0%;
     text-align: left;
 }
 
-.header__days__clok {}
+.header__days-clok {
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
-.header__service {}
 
-.header__play-service {}
+.header__service {
+    position: relative;
+    margin-left: 30px;
+}
+
+.header__play {
+    content: "";
+    top: 80px;
+    left: -35px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 59px;
+    align-items: center;
+    display: flex;
+    width: 281px;
+    height: 102px;
+    justify-content: center;
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    -webkit-background-clip: padding;
+    transition: all 1s;
+
+}
+
+.header__play:hover {
+    transition: all 1s;
+    border: 12px solid rgba(255, 255, 255, 0.43);
+    box-shadow: 0px 8px 118px 5px rgba(0, 248, 103, 0.12);
+    background: linear-gradient(150.58deg, #ffffff -39.078%, #ffffff 50.285%);
+/*     opacity: 0.5; */
+}
+
+.header__play span {
+    margin-left: 14px;
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -3%;
+    text-align: left;
+}
+
+.rateYo {
+/*     content: "";
+    bottom: 60px;
+    right: 0;
+    position: absolute; */
+/*     background-color: #fff; */
+/*     border-radius: 59px;  */
+/*     width: 326px;
+    height: 78px;
+    align-items: center;
+    display: flex;
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    -webkit-background-clip: padding; */
+}
+.rateYo__box {
+    content: "";
+    bottom: 60px;
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    right: -30px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    border-radius: 59px; 
+    width: 302px;
+    height: 102px;
+    -webkit-background-clip: padding;
+    justify-content: center;
+    margin-left: 20px;
+}
+.rateYo__index {
+    font-size: 24px;
+    justify-content: space-between;
+
+}
+.rateYo__index span {
+font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
