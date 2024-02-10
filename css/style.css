@@ -167,10 +167,10 @@ html, body {
     line-height: 52px;
     padding: 0 35px;
     border-radius: 12px;
-    background: linear-gradient(10.9deg, #05ec9c 0%, #2b3a22 100%);
+    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%); 
     white-space: nowrap;
     transition: .3s;
-    color: rgb(181, 236, 236);
+    color: rgb(0, 0, 0);
 }
 
 .button:hover {
@@ -254,7 +254,7 @@ html, body {
     transition: all 1s;
     border: 12px solid rgba(255, 255, 255, 0.43);
     box-shadow: 0px 8px 118px 5px rgba(0, 248, 103, 0.12);
-    background: linear-gradient(150.58deg, #ffffff -39.078%, #ffffff 50.285%);
+    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%); 
 /*     opacity: 0.5; */
 }
 
@@ -298,10 +298,15 @@ html, body {
     -webkit-background-clip: padding;
     justify-content: center;
     margin-left: 20px;
+    transition: all 0.3s;
 }
+    .rateYo__box:hover {
+        transition: all 0.3s;
+        border: 12px;
+        background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%); 
+    }
 .rateYo__index {
     font-size: 24px;
-    justify-content: space-between;
 
 }
 .rateYo__index span {
