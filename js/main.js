@@ -1,7 +1,17 @@
 $(function () {
 
-$(".rateYo").rateYo({
-precision: 2,
+    $(".rateYo").rateYo({
+        rating: 4.5,
+        readOnly: true
+    });
 });
-});
+
+
+
+
+
+
+
+
+
 
