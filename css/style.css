@@ -20,8 +20,17 @@ html, body {
     height: 100%;
 }
 
+.heading--text-centr {
+    text-align: center;
+    color: rgb(30, 27, 27);
+}
+
 .header {
-    padding-top: 15px;
+    padding: 15px 0 135px;
+}
+
+.about {
+    padding: 128px 0 192px;
 }
 
 /* ============================== HEADER TOP ============================== */
@@ -120,7 +129,7 @@ html, body {
 
 
 .header__body {
-    padding: 80px 0 135px;
+    padding: 80px 0 0px;
 }
 
 .header__body-inner {
@@ -308,4 +317,104 @@ html, body {
     letter-spacing: 0%;
     text-align: left;
     opacity: 0.7;
+}
+
+/* ============================== ABOUT ============================== */
+/* ============================== ABOUT ============================== */
+
+.main__about {
+    background: rgb(242, 242, 242);
+}
+
+.heading--text-centr {
+    text-align: center;
+}
+
+.heading__siubtitle {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+
+.heading__title {
+    margin: 8px 0 64px;
+    font-family: Manrope;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -3%;
+    text-align: center;
+}
+
+.about__grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    gap: 8px
+}
+
+.about__item {
+    background-color: #fff;
+    display: inline-block;
+    justify-content: space-between;
+    width: 316px;
+    height: 232px;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 10px;
+
+}
+
+.about__item:hover {
+    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
+    border-radius: 10px;
+    transition: all 0.3s;
+    scale: 1.04;
+}
+
+.about__link img {
+    content: "";
+    top: 86px;
+    left: 138px;
+    position: absolute;
+
+
+}
+
+.about__link span {
+    content: "";
+    top: 150px;
+    left: 125px;
+    position: absolute;
+
+
+}
+
+.about__services {
+    position: relative;
+}
+
+.about__services:hover  {
+    text-shadow: 2px 2px 2px #05dffc;
+
+}
+
+.about__next {
+    position: absolute;
+    bottom: -80px;
+    right: -15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about__next span {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 16px;
 }
