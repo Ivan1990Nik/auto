@@ -167,7 +167,7 @@ html, body {
     line-height: 52px;
     padding: 0 35px;
     border-radius: 12px;
-    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%); 
+    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
     white-space: nowrap;
     transition: .3s;
     color: rgb(0, 0, 0);
@@ -246,17 +246,18 @@ html, body {
     justify-content: center;
     border: 12px solid rgba(225, 225, 225, 0.43);
     -webkit-background-clip: padding;
-    transition: all 1s;
+    transition: all 0.3s;
 
 }
+
 
 .header__play:hover {
     transition: all 1s;
-    border: 12px solid rgba(255, 255, 255, 0.43);
+    border: 12px;
     box-shadow: 0px 8px 118px 5px rgba(0, 248, 103, 0.12);
-    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%); 
-/*     opacity: 0.5; */
+    background: linear-gradient(150.58deg, hwb(118 2% 1%) -39.078%, #0ee2d8 50.285%);
 }
+
 
 .header__play span {
     margin-left: 14px;
@@ -269,20 +270,7 @@ html, body {
     text-align: left;
 }
 
-.rateYo {
-/*     content: "";
-    bottom: 60px;
-    right: 0;
-    position: absolute; */
-/*     background-color: #fff; */
-/*     border-radius: 59px;  */
-/*     width: 326px;
-    height: 78px;
-    align-items: center;
-    display: flex;
-    border: 12px solid rgba(225, 225, 225, 0.43);
-    -webkit-background-clip: padding; */
-}
+
 .rateYo__box {
     content: "";
     bottom: 60px;
@@ -292,7 +280,7 @@ html, body {
     align-items: center;
     display: flex;
     background-color: #fff;
-    border-radius: 59px; 
+    border-radius: 59px;
     width: 302px;
     height: 102px;
     -webkit-background-clip: padding;
@@ -300,21 +288,24 @@ html, body {
     margin-left: 20px;
     transition: all 0.3s;
 }
-    .rateYo__box:hover {
-        transition: all 0.3s;
-        border: 12px;
-        background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%); 
-    }
+
+.rateYo__box:hover {
+    transition: all 0.3s;
+    border: 12px;
+    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
+}
+
 .rateYo__index {
     font-size: 24px;
 
 }
+
 .rateYo__index span {
-font-family: Manrope;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 }
