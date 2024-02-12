@@ -20,6 +20,16 @@ html, body {
     height: 100%;
 }
 
+.heading {
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -3%;
+    text-align: left;
+}
+
 .heading--text-centr {
     text-align: center;
     color: rgb(30, 27, 27);
@@ -31,6 +41,10 @@ html, body {
 
 .about {
     padding: 128px 0 192px;
+}
+
+.services {
+    padding: 134px 0 48px;
 }
 
 /* ============================== HEADER TOP ============================== */
@@ -381,16 +395,17 @@ html, body {
     position: absolute;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, -50%) ;
-color: rgb(30, 27, 27);
-font-family: Manrope;
-font-size: 22px;
-font-weight: 600;
-line-height: 36px;
-letter-spacing: -1px;
-transition: all 0.3s;
+    transform: translate(-50%, -50%);
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -1px;
+    transition: all 0.3s;
 
 }
+
 .about__link:hover span {
     color: #098613;
     transition: all 0.3s;
@@ -427,3 +442,100 @@ transition: all 0.3s;
 
 /* ============================== ABOUT ============================== */
 /* ============================== ABOUT ============================== */
+
+.services {}
+
+.services__inner {}
+
+.services__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Services__content {
+    width: 524px;
+    height: 396px;
+
+
+}
+
+.Services__heading {
+    margin-bottom: 16px;
+}
+
+.Services__text {
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.services__info {
+    width: 432px;
+    height: 527px;
+}
+
+.services__link {
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -3%;
+/*     text-align: left; */
+    margin-bottom: 16px;
+    position: relative;
+}
+
+
+.services__link span {
+content: "";
+position: absolute;
+top: 0;
+left: -75px;
+border-radius: 50px;
+text-align: center;
+}
+
+.services__link  span{
+    width: 72px;
+    height: 72px;
+background: url(../images/services/BG.svg) 20% 0% no-repeat;
+height: 100vh;
+display: block;
+flex-direction: column;
+}
+.services__number {
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.services__item {
+    width: 336px;
+    height: 152px;
+    margin-left: 30px;
+    align-self: center;
+}
+
+.services__content {}
+
+.services__contact {}
+
+.services__header {}
+
+.services__contect-btn {}
+
+.servicer__img {}
+
+.services__row {}
+
+.services__row-item {}
