@@ -30,6 +30,7 @@ html, body {
     text-align: left;
 }
 
+
 .heading--text-centr {
     text-align: center;
     color: rgb(30, 27, 27);
@@ -496,18 +497,20 @@ html, body {
 content: "";
 position: absolute;
 top: 0;
-left: -75px;
+left: -100px;
 border-radius: 50px;
 text-align: center;
 }
 
 .services__link  span{
+    color: #29005f  ;
     width: 72px;
     height: 72px;
 background: url(../images/services/BG.svg) 20% 0% no-repeat;
 height: 100vh;
 display: block;
 flex-direction: column;
+
 }
 .services__number {
     color: rgb(30, 27, 27);
@@ -526,15 +529,50 @@ flex-direction: column;
     align-self: center;
 }
 
-.services__content {}
+.services__content {
 
-.services__contact {}
+}
 
-.services__header {}
+.services__contact {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.servicer__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 780px;
+height: 502px;
+background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
+}
 
-.services__contect-btn {}
+.services__heading {
+    color: #fff;
+    margin: 128px 80px 0px 80px;
+    /* Heading(h3) */
+color: rgb(255, 255, 255);
+font-family: Manrope;
+font-size: 48px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0.5px;
+text-align: center;
+}
 
-.servicer__img {}
+.services__contect-btn {
+    background: rgb(30, 27, 27);
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.services__contect-btn span{
+    color:#fff;
+}
+
+.servicer__img {
+}
 
 .services__row {}
 
