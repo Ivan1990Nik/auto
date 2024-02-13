@@ -5,10 +5,10 @@
 html, body {
     font-family: Manrope, sans-serif;
     background: rgb(248, 250, 250);
+    scroll-behavior: smooth;
 }
 
 .wrapper {
-    
     min-height: 100%;
     width: 100%;
     overflow: hidden;
@@ -33,8 +33,14 @@ html, body {
 
 
 .heading--text-centr {
-    text-align: center;
-    color: rgb(30, 27, 27);
+    text-align: center
+color: rgb(30, 27, 27);
+font-family: Manrope;
+font-size: 58px;
+font-weight: 800;
+line-height: 76px;
+letter-spacing: -3%;
+text-align: center;
 }
 
 .header {
@@ -47,6 +53,10 @@ html, body {
 
 .services {
     padding: 134px 0 48px;
+}
+
+.brands {
+    padding: 128px 0 81px;
 }
 
 /* ============================== HEADER TOP ============================== */
@@ -446,9 +456,8 @@ html, body {
 /* ============================== ABOUT ============================== */
 /* ============================== ABOUT ============================== */
 
-.services {}
 
-.services__inner {}
+
 
 .services__top {
     display: flex;
@@ -527,10 +536,6 @@ display: block;
     align-self: center;
 }
 
-.services__content {
-
-}
-
 .services__contact {
     max-width: 1300px;
     padding: 0 15px;
@@ -550,7 +555,6 @@ background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
 .services__heading {
     color: #fff;
     margin: 128px 80px 0px 80px;
-    /* Heading(h3) */
 color: rgb(255, 255, 255);
 font-family: Manrope;
 font-size: 48px;
@@ -603,3 +607,20 @@ text-align: start;
 margin-bottom: 4px;
 }
 
+
+/* ============================== BRANDS ============================== */
+/* ============================== BRANDS ============================== */
+
+.main__brands {
+    background: rgb(242, 242, 242);
+}
+.brands__title {
+}
+.brands__grib {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+.brands__item {
+}
+.brands__link {
+}
