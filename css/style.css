@@ -553,7 +553,7 @@ background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
 }
 
 .services__heading {
-    color: #fff;
+    color: rgb(248, 7, 7);
     margin: 128px 80px 0px 80px;
 color: rgb(255, 255, 255);
 font-family: Manrope;
@@ -621,6 +621,19 @@ margin-bottom: 4px;
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
 }
 .brands__item {
+    opacity: 0.4;
+}
+.brands__item:hover{
+    opacity: 1;
 }
 .brands__link {
+}
+
+/* ============================== BLOG ============================== */
+/* ============================== BLOG ============================== */
+
+
+.blog__grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
