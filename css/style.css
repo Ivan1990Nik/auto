@@ -33,14 +33,13 @@ html, body {
 
 
 .heading--text-centr {
-    text-align: center
-color: rgb(30, 27, 27);
-font-family: Manrope;
-font-size: 58px;
-font-weight: 800;
-line-height: 76px;
-letter-spacing: -3%;
-text-align: center;
+    text-align: center color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -3%;
+    text-align: center;
 }
 
 .header {
@@ -62,6 +61,7 @@ text-align: center;
 .blog {
     padding: 136px 0 131px;
 }
+
 /* ============================== HEADER TOP ============================== */
 /* ============================== HEADER TOP ============================== */
 
@@ -220,7 +220,7 @@ text-align: center;
 .header__play-video {
     display: inline-flex;
     align-items: center;
-    background: url(../images/icons/Vector.svg) no-repeat;
+
 }
 
 .header__play-video span {
@@ -503,27 +503,28 @@ text-align: center;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: -3%;
-/*     text-align: left; */
+    /*     text-align: left; */
     margin-bottom: 16px;
     position: relative;
 }
 
 
 .services__link span {
-content: "";
-position: absolute;
-top: 0;
-left: -100px;
-border-radius: 50px;
-text-align: center;
-    color: #29005f  ;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100px;
+    border-radius: 50px;
+    text-align: center;
+    color: #29005f;
     width: 72px;
     height: 72px;
-background: url(../images/services/BG.svg) 20% 0% no-repeat;
-height: 100vh;
-display: block;
+    background: url(../images/services/BG.svg) 20% 0% no-repeat;
+    height: 100vh;
+    display: block;
 
 }
+
 .services__number {
     color: rgb(30, 27, 27);
     font-family: Manrope;
@@ -548,25 +549,26 @@ display: block;
     height: 100%;
     position: relative;
 }
+
 .servicer__bg {
     position: absolute;
     top: 0;
     left: 0;
-width: 780px;
-height: 502px;
-background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
+    width: 780px;
+    height: 502px;
+    background: linear-gradient(150.58deg, #0dfc05 -39.078%, #0ee2d8 50.285%);
 }
 
 .services__heading {
     color: rgb(248, 7, 7);
     margin: 128px 80px 0px 80px;
-color: rgb(255, 255, 255);
-font-family: Manrope;
-font-size: 48px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0.5px;
-text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
 
 .services__contect-btn {
@@ -574,15 +576,16 @@ text-align: center;
     margin-left: 80px;
     margin-top: 50px;
 }
-.services__contect-btn span{
-    color:#fff;
+
+.services__contect-btn span {
+    color: #fff;
 }
 
 .services__img {
-    max-width: 100vw ;
+    max-width: 100vw;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(150.58deg,#0ee2d8 50.285%, #0ee2d8 50.285%);
+    background: linear-gradient(150.58deg, #0ee2d8 50.285%, #0ee2d8 50.285%);
 }
 
 .services__row {
@@ -593,23 +596,24 @@ text-align: center;
 }
 
 .services__row-item {
-color: rgb(30, 27, 27);
-font-family: Manrope;
-font-size: 24px;
-font-weight: 600;
-line-height: 36px;
-letter-spacing: -3%;
-text-align: left;
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -3%;
+    text-align: left;
 }
+
 .services__row-item h2 {
-color: rgb(102, 28, 231);
-font-family: Manrope;
-font-size: 58px;
-font-weight: 800;
-line-height: 76px;
-letter-spacing: -3%;
-text-align: start;
-margin-bottom: 4px;
+    color: rgb(102, 28, 231);
+    font-family: Manrope;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -3%;
+    text-align: start;
+    margin-bottom: 4px;
 }
 
 
@@ -618,82 +622,91 @@ margin-bottom: 4px;
 
 .main__brands {
     background: rgb(242, 242, 242);
+
 }
+
 .brands__title {
+    margin-bottom: 31px;
 }
+
 .brands__grib {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    gap: 13px 10.1%;
 }
+
 .brands__item {
     opacity: 0.4;
 }
-.brands__item:hover{
+
+.brands__item:hover {
     opacity: 1;
 }
-.brands__link {
-}
+
+.brands__link {}
 
 /* ============================== BLOG ============================== */
 /* ============================== BLOG ============================== */
 
 
-.blog__inner {
-}
-.container {
-}
-.blog__heading {
+.blog__inner {}
 
-}
-.blog__naw {
-
-}
 .blog__item {
     display: flex;
-color: rgb(30, 27, 27);
-font-family: Manrope;
-font-size: 32px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -3%;
-text-align: left;
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -3%;
+    text-align: left;
+    
 
 }
+
 .blog__link {
-    margin:47px 30px 46px 0px;
+    margin: 47px 30px 46px 0px;
 }
+
 .blog__grid {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-}
-.blog__content {
-}
-.blog__content span{
-color: rgb(147, 145, 145);
-font-family: Manrope;
-font-size: 16px;
-font-weight: 600;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
-}
-.blog__item-title {
-color: rgb(30, 27, 27);
-font-family: Manrope;
-font-size: 32px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -3%;
-text-align: left;
-margin: 16px 0 16px;
-}
-.blog__item-text {
-color: rgb(35, 37, 54);
-font-family: Manrope;
-font-size: 16px;
-font-weight: 600;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
+    gap: 32px
 }
 
+.blog__content img{
+    margin-bottom: 24px;
+}
+
+.blog__content span {
+    color: rgb(147, 145, 145);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.blog__item-title {
+    color: rgb(30, 27, 27);
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -3%;
+    text-align: left;
+    margin: 16px 0 16px;
+}
+
+.blog__item-text {
+    
+    color: rgb(35, 37, 54);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
