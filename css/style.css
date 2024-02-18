@@ -64,6 +64,10 @@ html, body {
     padding: 128px 0 159px
 }
 
+.questions {
+    padding: 128px 0;
+}
+
 /* ============================== HEADER TOP ============================== */
 /* ============================== HEADER TOP ============================== */
 
@@ -909,4 +913,46 @@ align-items: center;
 .customers__dots .slick-active button::before {
     background-color: #0dfc05;
     transition: all .3s;
+}
+
+
+/* ============================== QESTIONS ============================== */
+/* ============================== QESTIONS ============================== */
+
+
+
+.main__questions {
+    background-color: #E2E6E9;
+}
+
+.questions__inner {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.questions__iheading {
+    justify-content: center;
+
+}
+.questions__acc {
+    margin-top: 86px;
+}
+.questions__acc-item {
+    background-color: white;
+}
+.questions__acc-head {
+}
+.questions__acc-title {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    padding: 40px 0px 16px 40px;
+}
+.questions__acc-text {
+    max-width: 701px;
+    font-size: 18px;
+    line-height: 175%;
+    color: #939191;
+    margin-left: 40px;
+    padding-bottom: 38px;
 }
