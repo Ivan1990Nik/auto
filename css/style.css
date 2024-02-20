@@ -450,7 +450,8 @@ html, body {
     bottom: -80px;
     right: -15px;
     display: flex;
-    align-items: center;transition: all .3s;
+    align-items: center;
+    transition: all .3s;
 
 }
 
@@ -573,9 +574,7 @@ html, body {
 }
 
 .services__heading {
-    color: rgb(248, 7, 7);
     margin: 128px 80px 0px 80px;
-    color: rgb(255, 255, 255);
     font-family: Manrope;
     font-size: 48px;
     font-weight: 700;
@@ -619,7 +618,9 @@ html, body {
 }
 
 .services__row-item h2 {
-    color: rgb(102, 28, 231);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(70deg, #0dfc05 0%, #0ee2d8 50%);
     font-family: Manrope;
     font-size: 58px;
     font-weight: 800;
@@ -751,12 +752,12 @@ html, body {
 
 .customers__slider-wrapper {
     position: relative;
-    
+
 }
 
 .customers__slider {
     margin-bottom: 35px;
-    
+
 }
 
 .customers__slider .slick-list {
@@ -882,6 +883,7 @@ height: 376px; */
     margin-right: 11px;
 
 }
+
 .customers__dots li:last-child {
     margin-right: 0px;
 
@@ -895,7 +897,7 @@ height: 376px; */
     height: 30px;
     display: flex;
     align-items: center;
-    
+
 
 }
 
@@ -906,8 +908,9 @@ height: 376px; */
     background-color: #0ee2d8;
     border-radius: 4px;
 }
+
 .customers__dots-click {
-align-items: center;
+    align-items: center;
 }
 
 .customers__dots .slick-active button::before {
@@ -930,24 +933,71 @@ align-items: center;
     margin: 0 auto;
 
 }
+
 .questions__iheading {
     justify-content: center;
 
 }
+
 .questions__acc {
     margin-top: 86px;
 }
+
 .questions__acc-item {
     background-color: white;
 }
+
 .questions__acc-head {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.questions__acc-click {
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #0ee2d8;
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+
+
+}
+
+
+.questions__acc-click::before,
+.questions__acc-click::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 3px;
+}
+
+.questions__acc-click::after {
+    transform: rotate(90deg);
+    transition: all .3s;
+}
+
+.questions__acc-click--after .questions__acc-click::after {
+transform: rotate(0deg);
+}
+
+
 .questions__acc-title {
     font-size: 24px;
     line-height: 150%;
     letter-spacing: -0.03em;
     padding: 40px 0px 16px 40px;
 }
+
 .questions__acc-text {
     max-width: 701px;
     font-size: 18px;
