@@ -945,6 +945,7 @@ height: 376px; */
 
 .questions__acc-item {
     background-color: white;
+margin: 12px;
 }
 
 .questions__acc-head {
@@ -954,7 +955,7 @@ height: 376px; */
     align-items: center;
 }
 
-.questions__acc-click {
+.questions__acc-span {
     content: "";
     position: absolute;
     top: 35px;
@@ -964,30 +965,27 @@ height: 376px; */
     background-color: #0ee2d8;
     align-items: center;
     display: flex;
-
     justify-content: center;
-
-
 }
 
 
-.questions__acc-click::before,
-.questions__acc-click::after {
+.questions__acc-span::before,
+.questions__acc-span::after {
     content: "";
     position: absolute;
-    height: 2px;
+    height: 3px;
     width: 25px;
     background-color: #000000;
     border-radius: 3px;
 }
 
-.questions__acc-click::after {
+.questions__acc-span::after {
     transform: rotate(90deg);
     transition: all .3s;
 }
 
-.questions__acc-click--after .questions__acc-click::after {
-transform: rotate(0deg);
+.questions__acc-link--active .questions__acc-span::after {
+    transform: rotate(0deg);
 }
 
 
@@ -1005,4 +1003,60 @@ transform: rotate(0deg);
     color: #939191;
     margin-left: 40px;
     padding-bottom: 38px;
+}
+
+.questions__acc-link {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions__acc-head {
+    position: relative;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    padding: 40px 0px 40px 40px;
+}
+
+
+.questions__acc-text{
+    display: none;
+    max-width: 701px;
+    font-size: 18px;
+    line-height: 175%;
+    color: #939191;
+    margin-left: 40px;
+    padding-bottom: 38px;
+}
+
+.questions__acc-span {
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #0ee2d8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.questions__acc-span::before,
+.questions__acc-span::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 3px;
+}
+
+.questions__acc-link--active .squestions__acc-span::after {
+    transform: rotate(0deg);
+}
+
+.questions__acc-span::after {
+    transform: rotate(90deg);
+    transition: all .3s;
 }

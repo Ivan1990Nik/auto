@@ -31,15 +31,15 @@ $('.customers__next').on('click', function (e) {
     $('.customers__slider').slick('slickNext')
 })
 
-$('.questions__acc-click').on('click', function (e) {
+$('.questions__acc-link').on('click', function (e) {
     e.preventDefault()
-    if ($(this).hasClass('questions__acc-click--after')) {
-        $(this).removeClass('questions__acc-click--after')
+    if ($(this).hasClass('questions__acc-link--active')) {
+        $(this).removeClass('questions__acc-link--active')
         $(this).children('.questions__acc-text').slideUp()
     } else {
-        $('.questions__acc-click').removeClass('program__acc-link--active')
+        $('.questions__acc-link').removeClass('questions__acc-link--active')
         $('.questions__acc-text').slideUp()
-        $(this).addClass('questions__acc-click--after')
+        $(this).addClass('questions__acc-link--active')
         $(this).children('.questions__acc-text').slideDown()
     }
 })
