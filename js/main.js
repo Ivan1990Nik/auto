@@ -42,6 +42,15 @@ $('.questions__acc-link').on('click', function (e) {
         $(this).addClass('questions__acc-link--active')
         $(this).children('.questions__acc-text').slideDown()
     }
+
+
+    
+    
+})
+
+$('.burger').on('click', function (e) {
+    e.preventDefault()
+    $('.header__top').toggleClass('header__top--open')
 })
 
 
