@@ -1380,12 +1380,12 @@ height: 376px; */
         background-color: #4d6d4c;
         z-index: 100;
         min-width: 250px;
-        transform: translateX(100%);
+        transform: translateX(0);
         transition: all 1s;
     }
 
     .header__top--open {
-        transform: translateX(0%);
+        transform: translateX(100%);
     }
 
     .header__nav {
