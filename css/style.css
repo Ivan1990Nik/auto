@@ -202,7 +202,6 @@ html, body {
     font-weight: 800;
     line-height: 84px;
     letter-spacing: -3%;
-    text-align: left;
     margin-bottom: 32px;
     max-width: 642px;
 
@@ -1512,7 +1511,8 @@ height: 376px; */
         font-size: 42px;
         letter-spacing: -3%;
         max-width: 450px;
-        line-height: 50px;
+        line-height: 60px;
+text-align: center;
     }
     .header__content-buttons {
         flex-direction: column-reverse;
