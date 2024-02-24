@@ -45,19 +45,19 @@ $(function () {
     })
 
     setInterval(() => {
-        if ($(window).scrollTop() > 0 && $('.header__top').hasClass('header__top--open') === false) {
+        if ($(window).scrollTop() > 0 && $('.header__top-inner').hasClass('header__top--open') === false) {
             $('.burger').addClass('burger--follow')
         } else {
             $('.burger').removeClass('burger--follow')
         }
     }, 0)
-    $('.burger, .overlay, .header__top a').on('click', function (e) {
+    $('.burger').on('click', function (e) {
         e.preventDefault()
-        $('.header__top').toggleClass('header__top--open')
-        $('.overlay').toggleClass('overlay--show')
+        $('.header__top-inner').toggleClass('header__inner--open')
+        
     })
-
-
+    
+    
 })
 
 

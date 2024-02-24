@@ -90,6 +90,10 @@ html, body {
     align-items: center;
 
 }
+.header__logo img{
+    position: relative;
+    top: 38px;
+}
 
 .header__nav {
     margin-left: auto;
@@ -1329,7 +1333,7 @@ height: 376px; */
 /* ============================== MEDIA ============================== */
 /* ============================== MEDIA ============================== */
 @media (max-width: 1300px) {
-    .overlay {
+    /* .overlay {
         position: fixed;
         top: 0;
         left: 0;
@@ -1343,7 +1347,7 @@ height: 376px; */
     }
     .overlay--show {
         visibility: visible;
-        opacity: 1;
+        opacity: 1; */
     }
     .header__title {
         font-size: 54px;
@@ -1355,6 +1359,11 @@ height: 376px; */
     .header__img {
         max-width: 400px;
     }
+    .header__play {
+        top: 0;
+        right: -400px;
+        
+    
 }
 /* ================================ 1200 ===============================   */ 
 @media (max-width: 1200px) {
@@ -1378,7 +1387,7 @@ height: 376px; */
 
 }
 /* ================================ 950 ===============================    */
-@media (max-width: 950px) {
+@media (max-width: 930px) {
     .header__img {
         display: none;
     }
@@ -1386,19 +1395,11 @@ height: 376px; */
         position: relative;
         top: 0;
         right: 0px;
-        background-color: #fff;
-        border-radius: 59px;
-        align-items: center;
-        width: 281px;
-        height: 102px;
-        transition: all 0.3s;
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
         
     
     }
     .rateYo__box{
         position: relative;
-        align-items: center;
         right: 0;
         margin: 0;
     }
@@ -1417,7 +1418,7 @@ height: 376px; */
     }
     .header__days {
         flex-direction: column;
-        margin: 0;
+        margin-left: 30px;
         
     }
     
@@ -1475,16 +1476,13 @@ height: 376px; */
         background: linear-gradient(70deg, #0ee2d8 50%, #0dfc05 50%);
     }
 
-    .header {
-        padding-top: 66px;
-    }
 
     .header__divider {
     transform: rotate(0deg);
     width: 100%;
     }
 
-    .header__top {
+    .header__top-inner {
         position: fixed;
         top: 0;
         right: 0;
@@ -1496,7 +1494,7 @@ height: 376px; */
         transition: all .2s;
     }
 
-    .header__top--open {
+    .header__inner--open {
         transform: translateX(100%);
     }
 
@@ -1547,7 +1545,7 @@ height: 376px; */
 }
 /* ================================ 500 ===============================   */ 
 @media (max-width: 500px) {
-    .header__top {
+    .header__top-inner {
         min-width: none;
         left: 0;
     }
