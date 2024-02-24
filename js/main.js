@@ -55,6 +55,8 @@ $(function () {
         e.preventDefault()
         $('.header__top').toggleClass('header__top--open')
     })
+    
+    
 })
 
 
