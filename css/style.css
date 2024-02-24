@@ -1329,9 +1329,30 @@ height: 376px; */
 /* ============================== MEDIA ============================== */
 /* ============================== MEDIA ============================== */
 
-
+@media (max-width: 1200px) {
+    .header__title {
+        font-size: 58px;
+        line-height: 75px;
+        max-width: 550px;
+    }
+    .header__img {
+        max-width: 400px;
+    }
+}
+@media (max-width: 1050px) {
+    .header__img {
+        max-width: 350px;
+    }
+}
 @media (max-width: 900px) {
-
+    .header__service{
+        display: none;
+    }
+    .header__title {
+        font-size: 58px;
+        line-height: 75px;
+        max-width: 450px;
+    }
     .overlay {
         position: fixed;
         top: 0;
