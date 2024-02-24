@@ -245,8 +245,13 @@ html, body {
 }
 
 .header__play-video {
-    display: inline-flex;
-    align-items: center;
+    background: url(../images/icons/Vector.svg) no-repeat;
+    padding: 4px;
+
+}
+.header__play-video span{
+    margin-right: 15px;
+
 
 }
 
