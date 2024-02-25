@@ -76,7 +76,22 @@ html, body {
     margin: 121px 0 422px;
 }
 
-.connection {}
+.button {
+    display: inline-flex;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 52px;
+    padding: 0 35px;
+    border-radius: 12px;
+    background: linear-gradient(70deg, #0dfc05 50%, #0ee2d8 50%);
+    white-space: nowrap;
+    transition: .3s;
+    color: rgb(0, 0, 0);
+}
+.button:hover {
+    scale: 1.1;
+}
+
 
 /* ============================== HEADER TOP ============================== */
 /* ============================== HEADER TOP ============================== */
@@ -183,6 +198,7 @@ html, body {
 }
 
 
+
 /* ============================== HEADER BODY ============================== */
 /* ============================== HEADER BODY ============================== */
 
@@ -217,32 +233,9 @@ html, body {
 }
 
 .header__content-btn {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 175%;
-    letter-spacing: 0%;
     margin-right: 40px;
-
-
-
 }
 
-.button {
-    display: inline;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 52px;
-    padding: 0 35px;
-    border-radius: 12px;
-    background: linear-gradient(70deg, #0dfc05 50%, #0ee2d8 50%);
-    white-space: nowrap;
-    transition: .3s;
-    color: rgb(0, 0, 0);
-}
-
-.button:hover {
-    scale: 1.1;
-}
 
 .header__play-video {
     background: url(../images/icons/Vector.svg) no-repeat;
@@ -536,7 +529,8 @@ html, body {
     position: relative;
 }
 
-.ex1, .ex2 {
+.ex1, 
+.ex2 {
     border: none;
     border-top: 3px dotted #0dfc05;
     color: #fff;
@@ -553,9 +547,6 @@ html, body {
     top: 272px;
     right: 433px;
 }
-
-
-.ex1, .ex2 {}
 
 .services__link {
     color: rgb(30, 27, 27);
@@ -675,7 +666,6 @@ html, body {
     text-align: start;
     margin-bottom: 4px;
 }
-
 
 /* ============================== BRANDS ============================== */
 /* ============================== BRANDS ============================== */
@@ -1353,7 +1343,7 @@ height: 376px; */
     .overlay--show {
         visibility: visible;
         opacity: 1; */
-    }
+ /*    } */
     .header__title {
         font-size: 54px;
         letter-spacing: -3%;
@@ -1433,6 +1423,7 @@ height: 376px; */
         letter-spacing: -3%;
         max-width: 450px;
         line-height: 60px;
+        margin-top: 20px;
     }
 
     
