@@ -1550,7 +1550,9 @@ display: flex;
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: #4d6d4c;
+        /* background-color: #4d6d4c; */
+        background: url(../images/bogdan.jpg);
+        background-position: 40%;
         z-index: 100;
         min-width: 320px;
         transform: translateX(0%);
