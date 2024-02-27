@@ -1829,15 +1829,30 @@ html, body {
     .customers__quote {
         font-size: 16px;
         line-height: 25px;
+        padding: 10px;
     }
     .customers__slide {
         padding: 1px;
     }
+    .customers__avater {
+        margin: 0;
+    }
+    .customers__user {
+flex-direction: column;
+justify-content: end;
+position: relative;
+left: 25px;
+    }
+    .customers__info {
+        padding: 5px;
+        
+    }
     .customers__info-name {
         font-size: 16px;
-        line-height: 25px;
+        line-height: 20px;
+        justify-content: center;
     }
     .customers__dots {
         display: none;
     }
-}
+    }
