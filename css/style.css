@@ -1674,7 +1674,7 @@ html, body {
     }
     .customers__slide-inner {
         height: 350px;
-        height: 350px;
+        width: 100%;
     }
     .customers__quote {
         padding: 0;
@@ -1820,7 +1820,7 @@ html, body {
         margin: 0;
     }
     .main__customers {
-        padding: 40px 0 45px;
+        padding: 40px 15px 45px;
     }
     .customers__heading  {
         font-size: 35px;
@@ -1841,18 +1841,35 @@ html, body {
 flex-direction: column;
 justify-content: end;
 position: relative;
-left: 25px;
+left: 15px;
+
+    }
+    .customers__slide-inner{
+border-radius: 10px;
     }
     .customers__info {
-        padding: 5px;
+        padding: 15px 0 0 0;
         
     }
+
     .customers__info-name {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 8px;
         justify-content: center;
+        font-weight: 900;
+        border-bottom: 4px solid #0ee2d8;
+        padding: 3px;
+        border-radius: 10px;
     }
     .customers__dots {
         display: none;
     }
+    .customers__quote {
+        padding-left: 12px;
     }
+    .customers__info-positioN {
+
+        display: none;
+    }
+
+}
