@@ -1410,6 +1410,16 @@ html, body {
         right: -400px;
 
     }
+    .expert__form-input {
+        width: 400px;
+        
+    }
+    .expert__body {
+        width: 550px;
+    }
+    .expert__form {
+        margin: 0;
+    }
 }
 
 /* ================================ 1050 ===============================    */
@@ -1432,10 +1442,6 @@ html, body {
 
     .services__top {
         flex-direction: column;
-    }
-
-    .services__info {
-        /*    margin-left: 70px; */
     }
 
     .Services__heading {
@@ -1683,6 +1689,18 @@ html, body {
     .customers__user {
         padding: 0;
     }
+    .questions__heading {
+        font-size: 38px;
+    }
+    .questions__acc-head {
+        font-size: 18px;
+    }
+    .expert__inner {
+        flex-direction: column;
+    }
+    .expert__maps {
+        position: relative;
+    }
 }
 /* ================================ 500 ===============================   */
 @media (max-width: 500px) {
@@ -1788,7 +1806,7 @@ html, body {
     }
 
     .brands__link img {
-        width: 130px;
+        width: 100%;
     }
 
     
@@ -1814,13 +1832,20 @@ html, body {
 
     .blog__content img {
         width: 350px;
+        margin-bottom: 15px;
     }
 
     .blog__item-text {
         margin: 0;
     }
+    .blog__item-title {
+        font-size: 25px;
+        width: 300px;
+        line-height: 30px;
+        margin: 0;
+    }
     .main__customers {
-        padding: 40px 15px 45px;
+        padding: 40px 15px 60px;
     }
     .customers__heading  {
         font-size: 35px;
@@ -1872,4 +1897,63 @@ border-radius: 10px;
         display: none;
     }
 
+    .questions__heading {
+        font-size: 35px;
+        line-height: 40px;
+    } 
+    .questions__acc-head {
+        font-size: 16px;
+        padding: 15px 35px 15px 15px ;
+        text-align: center;
+    }
+    .questions__acc-span {
+        position: absolute;
+        top: 12px;
+        right: -12px;
+    }
+    .questions__acc-item {
+        border-radius: 30px;
+    }
+    .questions__acc-head:hover {
+        border-radius: 30px;
+    }
+    .main__questions {
+padding: 30px 0 30px;
+    }
+    .questions__acc {
+        margin: 0;
+    }
+    .questions__acc-text {
+        margin: 0 10px 0;
+        padding-bottom: 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .expert__heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .expert__inner {
+        display: block;
+        flex-direction: column;
+    }
+    .expert__form-input {
+        width: 320px;
+        border-radius: 30px;
+    }
+    .expert__body {
+        margin: 0;
+    }
+    .main__expert {
+
+        margin: 40px 0 2px;
+    }
+    .expert__contact {
+        margin: 0;
+    }
+    .expert__button-btn {
+        position: relative;
+        left:45px;
+        justify-content: center;
+    }
 }
