@@ -1938,11 +1938,12 @@ padding: 30px 0 30px;
         flex-direction: column;
     }
     .expert__form-input {
-        width: 320px;
+        width: 365px;
         border-radius: 30px;
     }
     .expert__body {
         margin: 0;
+        width: 380px;
     }
     .main__expert {
 
@@ -1952,8 +1953,11 @@ padding: 30px 0 30px;
         margin: 0;
     }
     .expert__button-btn {
-        position: relative;
-        left:45px;
+        content: "";
+        display: flex;
         justify-content: center;
+    }
+    .expert__form-row {
+        width: 380px;
     }
 }
